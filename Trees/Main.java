@@ -37,7 +37,7 @@ public class Main {
         List<String> result4 = ro.allPaths(root);
         System.out.println("All paths from root to leaf LC(257) :- " + result4);
 
-        System.out.println("Done performing all the functions!");
+        System.out.println("Done performing all the functions");
 
     }
 }
