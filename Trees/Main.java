@@ -37,6 +37,11 @@ public class Main {
         List<String> result4 = ro.allPaths(root);
         System.out.println("All paths from root to leaf LC(257) :- " + result4);
 
+        //Max Width of an binnary tree
+        MaxWidth mx = new MaxWidth();
+        int result5 = mx.max_width(root);
+        System.out.println("Max width of an binnary tree LC(662) :- " + result5);
+
         System.out.println("Done performing all the functions");
 
     }

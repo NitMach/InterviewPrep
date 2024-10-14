@@ -15,7 +15,7 @@ public class Main {
         System.out.println("Open close paranthesis LC(22) :- "+result);
 
 
-        //COmbination Sum
+        //Combination Sum
         CombinationSum39 cms39 = new CombinationSum39();
         List<List<Integer>> result1 = cms39.combinationSum(new int[]{2, 3, 6, 7}, 7);
         System.out.println("Combination Sum LC(39) :- " + result1);
