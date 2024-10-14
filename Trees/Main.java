@@ -42,7 +42,13 @@ public class Main {
         int result5 = mx.max_width(root);
         System.out.println("Max width of an binnary tree LC(662) :- " + result5);
 
-        System.out.println("Done performing all the functions");
+
+        //LCA
+        LCA lc = new LCA();
+        TreeNode result6 = lc.lca(root,root.left,root.right);
+        System.out.println("LCA LC(236) :- " + result6.val);
+
+        System.out.println("Done performing all the functions in recurssion");
 
     }
 }
