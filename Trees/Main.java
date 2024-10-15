@@ -48,6 +48,16 @@ public class Main {
         TreeNode result6 = lc.lca(root,root.left,root.right);
         System.out.println("LCA LC(236) :- " + result6.val);
 
+        //Cousins of BT
+        CousinsOfBT cousin = new CousinsOfBT();
+        boolean result7 = cousin.counsins(root,9,8);
+        System.out.println("Cousins of Binnary Tree LC(993) :- " + result7);
+
+        //PathSum of BT
+        PathSum pathSum = new PathSum();
+        boolean result8 = pathSum.pathSum(root, 10);
+        System.out.println("pathSum of the binary Tree LC(112) :- " + result8);
+
         System.out.println("Done performing all the functions in recurssion");
 
     }
