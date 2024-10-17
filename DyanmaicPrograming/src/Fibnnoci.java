@@ -6,13 +6,10 @@ public class Fibnnoci {
       if(num<=1){
           return num;
       }
-
       if(memo[num] != -1){
           return memo[num];
       }
-
       memo[num] = fib(num-1,memo) + fib(num-2,memo);
-
       return memo[num];
     }
 
