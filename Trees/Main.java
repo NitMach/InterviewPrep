@@ -58,6 +58,11 @@ public class Main {
         boolean result8 = pathSum.pathSum(root, 10);
         System.out.println("pathSum of the binary Tree LC(112) :- " + result8);
 
+        //Avg level of BT
+        AvgLevel avgLevel = new AvgLevel();
+        int result9 = avgLevel.avgLevelBt(root);
+        System.out.println("Avg level in the Bt LC(637) :- " + result9);
+
         System.out.println("Done performing all the functions in recurssion");
 
     }

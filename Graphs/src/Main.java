@@ -26,5 +26,22 @@ public class Main {
         ConnectedComponents con = new ConnectedComponents();
         int count = con.findCircleNum(isConnected);
         System.out.println("Number of provinces LC(547) :- " + count);
+
+
+        int[][] graph = {
+                {1, 2},     // Neighbors of node 0
+                {0, 3, 4},  // Neighbors of node 1
+                {0, 4},     // Neighbors of node 2
+                {1, 5},     // Neighbors of node 3
+                {1, 2},     // Neighbors of node 4
+                {3}         // Neighbors of node 5
+        };
+
+        // Create an object of the class that contains bfsTraversal
+        BFSMatrix gt = new BFSMatrix();
+        List<Integer> result = gt.bfsTraversal(graph);
+        System.out.println("bfs graph traversal where input is an matrix :- " + result);
+
+
     }
 }
