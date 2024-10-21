@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Main {
@@ -42,6 +43,15 @@ public class Main {
         List<Integer> result = gt.bfsTraversal(graph);
         System.out.println("bfs graph traversal where input is an matrix :- " + result);
 
+        //Cycle in the undirected graph
+        Cycle cycle = new Cycle();
+        boolean result2 = cycle.isCycle(5,adj);
+        System.out.println("Check if the graph has cycle :- " + result2);
 
+
+        //Food Fill
+        FoodFillImage foodFillImage = new FoodFillImage();
+        int[][] result3 = foodFillImage.foodFill(isConnected,1,1,2);
+        System.out.println("Food Fill LC(733) :- "+Arrays.deepToString(result3));
     }
 }
