@@ -63,6 +63,16 @@ public class Main {
         int result9 = avgLevel.avgLevelBt(root);
         System.out.println("Avg level in the Bt LC(637) :- " + result9);
 
+        //Invert an BT
+        InvertBT invertBT = new InvertBT();
+        TreeNode result10 = invertBT.invertTree(root);
+        System.out.println("Inverted an binnary tree LC(226) :- "+ result10.val);
+
+        //Diameter of BT
+        Diameter diameter = new Diameter();
+        int result11 = diameter.diameterOfBinaryTree(root);
+        System.out.println("Diameter of BT LC(543) :- " +result11);
+
         System.out.println("Done performing all the functions in recurssion");
 
     }
