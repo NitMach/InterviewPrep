@@ -19,5 +19,10 @@ public class Main {
         CombinationSum39 cms39 = new CombinationSum39();
         List<List<Integer>> result1 = cms39.combinationSum(new int[]{2, 3, 6, 7}, 7);
         System.out.println("Combination Sum LC(39) :- " + result1);
+
+        //Subset with dup
+        Subsets2 subsets2 = new Subsets2();
+        List<List<Integer>> result2 = subsets2.subsetsWithDup(new int[]{1, 2, 2});
+        System.out.println("subset2 LC(90) :- " + result2);
     }
 }
